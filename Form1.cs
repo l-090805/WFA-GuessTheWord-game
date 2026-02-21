@@ -14,7 +14,7 @@ namespace GuessingGameFull
     public partial class GuessingGame : Form
     {
         //declarations
-        private string[] wordList = { "car", "dog", "cat", "house", "city", "hospital", "happy", "hand", "bed", "river", "mountain", "red", "blue", "green", "yellow", "white", "nigga" };
+        private string[] wordList = { "car", "dog", "cat", "house", "city", "hospital", "happy", "hand", "bed", "river", "mountain", "red", "blue", "green", "yellow", "white"}; //hardcoded list of words
         private string secretWord;
         private Timer timer;
         int timeLeft = 120;
